@@ -1,0 +1,12 @@
+ public static int length(Node head){
+        //Your code goes here
+        int output=0;
+
+        Node temp=head;
+        while(temp.data !=-1)
+        {
+            output++;
+            temp=temp.next;
+        }
+        return output;
+    }
