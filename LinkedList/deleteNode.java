@@ -3,7 +3,7 @@
 	Following is the Node class already written for the Linked List
 
 	class  Node<T> {
-    	T data;
+    	T data;qw
     	 Node<T> next;
     
     	public  Node(T data) {
