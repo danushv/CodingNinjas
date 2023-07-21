@@ -33,7 +33,9 @@ public class Solution {
 		{
 			return -1;
 		}
-
+// SO here if the input is {{ -> in this case c1 and c2 are same any one if you change it would be balanced
+// in case if both are different then we have to  change both that is why c1 and c2 are checked
+// also if the input length is odd it is obvious that it is unbalanced
 		int count=0;
 		while(!stack.isEmpty())
 		{
