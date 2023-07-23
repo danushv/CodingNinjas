@@ -25,6 +25,7 @@ public class Solution {
                 stack.pop();
             } else {
                 stack.push(a);
+//zxcczxczxcxczxc
             }
         }
         return false;
