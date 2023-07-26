@@ -2,7 +2,7 @@ import java.util.*;
 public class Solution {
 
 	public static int countBracketReversals(String input) {
-		//Your code goes here
+		//Your code goes here     
 		Stack<Character> stack=new Stack<Character>();
 		for(int i=0;i<input.length();i++)
 		{
